@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CssFileName="../images" ImageName="big" IsPhone="true" xmlns="CssSprite">
+  <SpriteList>
+    <Sprite Path="search.png" LocationX="0" LocationY="0" />
+    <Sprite Path="tv.png" LocationX="0" LocationY="64" />
+    <Sprite Path="zongyi.png" LocationX="0" LocationY="128" />
+    <Sprite Path="play.png" LocationX="0" LocationY="192" />
+    <Sprite Path="dongm.png" LocationX="0" LocationY="256" />
+    <Sprite Path="movie.png" LocationX="0" LocationY="320" />
+    <Sprite Path="new.png" LocationX="0" LocationY="384" />
+  </SpriteList>
+</SpriteFile>

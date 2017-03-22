@@ -1,0 +1,119 @@
+.rh{
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.rh .rh-title{
+    margin: 8px 5px;
+}
+.rh-item .item {
+    width: 31%;
+    float: left;
+    margin-bottom: 5px;
+}
+.rh-item .item img {
+    width: 100%;
+    /* height: 100%; */
+}
+.rh-item p {
+    color: #666;
+    font-size: 12px;
+}
+.rh h4, .rh p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+/*更多*/
+.click-more{
+	border-top:1px solid #F0F0F0;
+	height:50px;
+	color:#48B5FD;
+	font-size:16px;
+}
+.click-more span{
+	background:url(../images/down.png) no-repeat;
+	height:20px;
+	width:20px;
+	background-size:20px;
+	margin-left:5px;
+	margin-top:1px
+}
+/* 详情页 */
+.details,.list{
+    background-color:#fff;
+    border-top:1px solid #ccc;
+   /* padding:0 8px;*/
+    overflow:hidden;
+}
+.details h3{
+    margin:10px 0;
+}
+.details .time{
+    color:#999;
+    font-size:12px;
+    margin-bottom: 10px
+}
+.details .text{
+    text-indent: 2em;
+}
+.details pre{
+    text-indent:1rem;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+     white-space: -o-pre-wrap;
+    word-wrap: break-word;   
+    word-break:break-all;
+    color:#333;
+  
+}
+.details p{
+     text-indent:1rem;
+}
+.details .text p:first-child{
+    margin:10px 0 0 0;
+}
+/*新闻列表*/
+.list{
+    padding:0 10px;
+}
+.list h3{
+    font-weight:normal;
+    font-size:18px;
+    color:#999;
+}
+.list-item{
+    display:block;
+    margin-bottom:15px;
+    border-bottom:1px solid #F2EEF1;
+    padding-bottom:10px;
+}
+.list .list-title{
+    font-size:16px;
+    margin-bottom:5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color:#6AC0FD;
+    display:block;
+}
+.list .list-title i{
+    display:inline-block;
+    width:4px;
+    height:4px;
+    background:url(../images/red_rectangle.png)  no-repeat;
+    vertical-align:middle;
+    margin-top:-3px;
+    margin-right:5px;
+}
+.list .list-time,.list .list-time b{
+    font-size:14px;
+     margin:0;
+}
+.list .list-time{
+    color:#666;
+}
+.list .list-time b{
+    color:#FC7C7A;
+}
